@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP and Device Tracker</title>
+    <link rel="stylesheet" href="steve.css">
+</head>
+<body>
+    <div class="container">
+        <h1>User IP and Device Tracker</h1>
+        <div id="info">
+            <p><strong>Public IP Address:</strong> <span id="public-ip"></span></p>
+            <p><strong>Local IP Address:</strong> <span id="local-ip"></span></p>
+            <p><strong>Location:</strong> <span id="location"></span></p>
+            <p><strong>Device Info:</strong> <span id="device-info"></span></p>
+            <p><strong>Device Details:</strong> <span id="device-details"></span></p>
+        </div>
+        <button onclick="fetchIPAndDeviceInfo()">Get IP and Device Info</button>
+    </div>
+    <script src="steve.js"></script>
+</body>
+</html>
